@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Permanent+Marker&display=swap');
+
+.header {
+  height: 100px;
+  background-color: #0094ff;
+  .inner {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left-container {
+      display: flex;
+      align-items: center;
+      .logo {
+        font-size: 3.4rem;
+        font-family: 'Permanent Marker', cursive;
+        color: #fff;
+        line-height: 90px;
+      }
+      .search-container {
+        margin: 0 36px;
+        position: relative;
+        width: 614px;
+        height: 34px;
+        input {
+          font-family: 'Noto Sans KR', sans-serif;
+          font-size: 1.6rem;
+          width: 614px;
+          height: 34px;
+          padding: 4px 16px;
+          border-radius: 13px;
+          border: none;
+        }
+        .search-icon {
+          position: absolute;
+          right: 16px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    .util {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Noto Sans KR', sans-serif;
+      .now-movie {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 20px;
+      }
+      .coming-movie {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 20px;
+      }
+      .top-rated-movie {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 20px;
+      }
+    }
+  }
+}
